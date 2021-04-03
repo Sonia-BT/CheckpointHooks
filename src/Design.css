@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Container {
+  display: flex;
+  background-color: white;
+  width: 80%;
+  height: 180px;
+  margin-left: 8%;
+  border-left: solid 5px hsl(180, 29%, 50%);
+  border-radius: 3%;
+}
+
+.Total {
+  display: flex;
+  flex-direction: row;
+  flex: 0.8;
+}
+.Img {
+  margin-left: 5%;
+  margin-top: 5%;
+  flex: 1;
+}
+
+.Elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Elem1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Elem2 {
+  display: flex;
+  justify-content: right;
+}
+
+.Elem3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Skills {
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  margin-top: 5%;
+  flex: 0.5;
+  height: 30px;
+}
+
+.Skill {
+  height: 35px;
+  width: 15%;
+  background-color: hsl(180, 31%, 95%);
+}
